@@ -1,0 +1,51 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+  background-color: #36393f;
+  background: linear-gradient(#36393f, #40444b);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.pfp {
+  border-radius: 50%;
+  width: 50px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #23272A;
+   color: white;
+   text-align: center;
+   font-size: 17px;
+}
+
