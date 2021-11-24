@@ -33,7 +33,7 @@ a:active {
   text-decoration: underline;
 }
 
-h1 {
+.line {
   left: 0;
   width: 100%;
   background: linear-gradient(#30cfff, #30acff);
