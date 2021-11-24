@@ -40,6 +40,10 @@ a:active {
   text-indent: 5%;
 }
 
+.pack {
+  text-indent: 10%;
+}
+
 .header {
   position: fixed;
   left: 0;
@@ -60,6 +64,25 @@ a:active {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.btn {
+  background-color: #30cfff;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 11%;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #30acff;
+}
+
+.btn:active {
+  background-color: #3089ff;
 }
 
 .pfp {
