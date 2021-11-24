@@ -42,6 +42,26 @@ a:active {
 
 .pack {
   text-indent: 10%;
+  font-size: 30px;
+}
+.goodver {
+  color: #30ff7f;
+  margin-left: 1%;
+}
+
+.badver {
+  color: #ff4830;
+  margin-left: 1%;
+}
+
+.mention {
+  background-color: #5865f29f;
+  border-radius: 5px;
+}
+
+.mention:hover {
+  text-decoration: underline;
+  background-color: #5865F2;
 }
 
 .header {
@@ -73,8 +93,8 @@ a:active {
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
-  margin-left: 11%;
-  border-radius: 5px;
+  margin-left: 10%;
+  border-radius: 3px;
 }
 
 .btn:hover {
