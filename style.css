@@ -2,35 +2,121 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 500;
   font-size: 25px;
-  color: white;
+  color: #fff;
   background-color: #36393f;
   background: linear-gradient(#36393f, #40444b);
   background-attachment: fixed;
   background-size: cover;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a:link {
-  color: white;
+  color: #30cfff;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: white;
+  color: #30cfff;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: lightgray;
+  color: #30acff;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:active {
-  color: white;
+  color: #3089ff;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+::selection {
+  background: #30acff;
+  color: #fff;
+}
+
+.nav {
+  text-align: center;
+  position: relative;
+  left: 0;
+  width: 100%;
+  background-color:#40444b;
+}
+
+.navbtn {
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 800;
+  margin: 10px;
+
+  background-color: #30cfff;
+  border: none;
+  color: #fff;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.navbtn:hover {
+  background-color: #30acff;
+}
+
+.navbtn:active {
+  background-color: #3089ff;
+}
+
+#toTop {
+  display: none;
+  position: fixed;
+  bottom: 95px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #23272a;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+#toTop:hover {
+  background-color: #555;
+}
+
+.toTop {
+  width: 50px;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(#30cfff, #30acff);
+}
+
+.headertxt {
+  color: #fff;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 800;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .line {
@@ -65,32 +151,10 @@ a:active {
   background-color: #5865F2;
 }
 
-.header {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 250px;
-  background: linear-gradient(#ffa000, #ffc400);
-}
-
-.headertxt {
-  color: white;
-  text-align: center;
-  font-size: 70px;
-  font-weight: 800;
-
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .btn {
   background-color: #30cfff;
   border: none;
-  color: white;
+  color: #fff;
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
@@ -117,7 +181,7 @@ a:active {
   bottom: 0;
   width: 100%;
   background-color: #23272a;
-  color: white;
+  color: #fff;
   text-align: center;
   font-size: 17px;
 }
